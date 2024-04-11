@@ -72,7 +72,7 @@ def stopwords(addr):
 
 
 ''' Zipf's Law 验证开关, 默认为 1 开启状态, 计算信息熵时可将其设置为0关闭, 提高程序运行速度'''
-test_flag = 0 
+test_flag = 1 
 
 stopstr = stopwords("cn_stopwords.txt")
 filepath = 'book/' # 需要遍历的文件夹
